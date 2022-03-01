@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 def app():
-    logo = Image.open('./assests/logo.png')
+    logo = Image.open('./assets/logo.png')
     col1, col2, col3 = st.columns([2,6,2])
 
     with col1:
