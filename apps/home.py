@@ -24,8 +24,9 @@ def app():
     st.markdown('## Scope')
 
     st.markdown('*Data Vision* is a Non-Governmental Organization fighting against data driven surveillance for civil liberties and digital rights. \
-        This app hopes to bring awarness to the technologies behind internet surveillance such that the general public becomes involved with the issue. \
-            Visit the links below to view the organization\'s social media and other action pieces.')
+        This app hopes to bring awarness to the technologies behind internet surveillance so the general public becomes involved with the issue. \
+        This app runs **simulations** of data tracking software but does not affect the users privacy as the data not been gathered from a real source (it\'s simply synthetic). \
+        Visit the links below to view the organization\'s social media and other action pieces.')
 
     st.caption('Organization Links')
     st.markdown("""

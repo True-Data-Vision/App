@@ -1,7 +1,6 @@
 import streamlit as st
 from multipapp import MultiApp
 from apps import home, geo, traffic
-from PIL import Image
 
 app = MultiApp()
 
@@ -28,8 +27,8 @@ st.set_page_config(page_title="Data Vision App", page_icon="⚫", layout='center
 # st.markdown('----')
 
 app.add_app("Home", home.app)
-app.add_app("Geo Tracking", geo.app)
-app.add_app("Internet Traffic", traffic.app)
+app.add_app("Geo Tracking Demo", geo.app)
+app.add_app("Internet Traffic Demo", traffic.app)
 
 # The main app
 app.run()
