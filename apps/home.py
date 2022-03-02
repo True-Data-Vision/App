@@ -28,7 +28,7 @@ def app():
         This app runs **simulations** of data tracking software but does not affect the users privacy as the data not been gathered from a real source (it\'s simply synthetic). \
         Visit the links below to view the organization\'s social media and other action pieces.')
 
-    st.caption('Organization Links')
+    st.markdown('***Organization Links***')
     st.markdown("""
     - [Instagram](https://www.instagram.com/true.datavision/) 
     - [Petition w/ OpenMedia](https://action.openmedia.org/page/95077/petition/1)
