@@ -3,7 +3,7 @@ import pandas as pd
 from random import randint
 
 def app():
-    df = pd.read_csv('./assets/Darknet.csv', on_bad_lines='skip')
+    df = pd.read_csv('./assets/Darknet.CSV', on_bad_lines='skip')
     sites = ['Netflix', 'Youtube', 'Amazon', 'Yahoo', 'Medium', 'CBC', 'BBC', 'Fox News', 'Instagram', 'Ebay', 'Google Classroom', 'Facebook', \
         'Wikipedia']
     attitude = ['Positive', 'Negative', 'Neutral']
