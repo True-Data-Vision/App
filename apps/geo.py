@@ -26,6 +26,7 @@ def app():
     geolocator = Nominatim(user_agent="http")
     location = geolocator.reverse(f"{df.lat.max()}, {df.lon.min()}")
     st.write(f'`Predicted Central Location:` {location.address}')
+    st.write(' ')
     
     st.write(f'`Central Latitude:` {df.lat.mean()}')
     st.write(f'`Central Longitude:` {df.lon.mean()}')
